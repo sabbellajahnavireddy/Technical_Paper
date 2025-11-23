@@ -90,7 +90,7 @@
 
 **Block Elements**
 - Block elements always start on a new line and span the full width available. They take up the entire row, even if the content is small. These elements are used for structural layout.
-- Examples of block elements: <div>, <p>, <h1> to <h6>, <section>, <ul>, <li>
+- Examples of block elements: ``` <div>, <p>, <h1> to <h6>, <section>, <ul>, <li>```
 - Example code:
 ```html
 <p>This is a block element. It takes up the full width.</p>
@@ -99,7 +99,7 @@
 **Inline Elements**
 - Inline Elements
 - Inline elements do not start on a new line. They only take up as much width as the content requires and are mainly used inside text for formatting or linking.
-- Examples of inline elements: <span>, <a>, <strong>, <em>, <img>
+- Examples of inline elements: ```<span>, <a>, <strong>, <em>, <img>```
 - Example code:
 ```html
 <p>This is <span>inline text</span> inside a paragraph.</p>
@@ -434,15 +434,16 @@ p {
 
 **Pseudo-Classes**
 - A pseudo-class is used to apply styles to an element when it is in a specific state (such as hover, focus, or visited).
-- Common Pseudo Classes:
-Pseudo-Classes
-| Pseudo-Class   | Meaning                                          | Example                                 |
-| -------------- | ------------------------------------------------ | --------------------------------------- |
-| `:hover`       | Applies style when the mouse is over the element | `a:hover {color: red;}`                 |
-| `:active`      | When an element is being clicked                 | `button:active {background: gray;}`     |
-| `:focus`       | When an element like input is focused            | `input:focus {border: 2px solid blue;}` |
-| `:visited`     | For visited links                                | `a:visited {color: purple;}`            |
-| `:first-child` | Targets first child of parent                    | `p:first-child {font-weight: bold;}`    |
+- Common Pseudo-Classes:
+```
+| Pseudo-Class   | Meaning                                | Example                                 |
+| -------------- | ---------------------------------------- | ---------------------------------------- |
+| :hover        | Applies style when mouse is over element | a:hover {color: red;}                    |
+| :active       | Style applies when element is clicked    | button:active {background: gray;}        |
+| :focus        | Applies style when input is focused      | input:focus {border: 2px solid blue;}    |
+| :visited      | Styles links after being visited         | a:visited {color: purple;}               |
+| :first-child  | Selects first child of a parent element  | p:first-child {font-weight: bold;}       |
+```
 
 - Example code:
 ```css
