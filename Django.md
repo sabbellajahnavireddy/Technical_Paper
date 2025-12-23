@@ -82,7 +82,7 @@ class Book(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
 ```
 
-### 2. What are Filds and Validators?
+### 2. What are Fields and Validators?
 
 **Fields in Django Models**
 - Fields define the type of data stored in database columns. Each field maps to a column in the database table.
